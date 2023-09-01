@@ -1,41 +1,40 @@
 *{margin: 0; padding: 0;}
 
 body{
-
+    
 }
 
-#leftblock{
-    float:left;
-    background-color:white;
+#leftBlock{
+    background-color:transparent;
     width:300px;
     height:300px;
-    text-align:left;
+    position:relative;
+    float:left;
 }
 
-#rightblock{
+#rightBlock{
     float:right;
-    background-color:white;
-    width:300px;
-    margin-top:10%;
-    position: relative;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    background-color:transparent;
+    width:701px;
+    height:701px;
+    position:relative;
 }
 
-.centervert{
+.centerHori{
     position: absolute;
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+    background-color: white !important;
 }
 
-#centerhori{
-    width:600px;
+#centerVert{
+    width:1001px;
     height:1000px;
     margin-left:auto;
     margin-right:auto;
     background-color:white;
+    margin-top: 140px;
 }
 
 #footer{
@@ -43,10 +42,8 @@ body{
     bottom: 0px;
     width: 95%;
     height: 50px;
-    clear: both;
     background-color: white;
     color: white;
-    text-align: center;
     flex-shrink: 0;
     margin-bottom: 0;
     border-top: 2px solid black;
@@ -54,30 +51,71 @@ body{
     margin-right:50px;
     color:black;
     padding-top:10px;
+    @media screen and (max-width: 1450px) {
+        margin-left: 20px; /* Justera dessa värden efter behov */
+        margin-right: 20px; /* Justera dessa värden efter behov */
+    }
 }
 
-#copyrightfooter{
+#copyrightFooter{
     float:left;
 }
 
-#infofooter{
+#infoFooter{
     float:right;
     height:20px;
     background-color:white;
 }
 
-.test{
+.infoBorder{
     width:1000px;
-    height:1000px;
     background-color: white;
     border: 2px solid black;
     margin-left:auto;
     margin-right:auto;
+    margin-top:200px;
 }   
+
+.infoHeading{
+    text-align: center;
+    margin-top:10px;
+    text-decoration: underline;
+}
+
+.infoText{
+    text-align: center;
+    padding-left:20px;
+    padding-right:20px;
+    margin-bottom:70px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
 
 /*Länkar*/
 a:link{
     color: black;
 }
 
+a:visited{
+    color:black;
+}
 
+/*img {  
+    max-width: 100%;  
+    height: auto;   
+    @media screen and (max-width:1100px){
+        width:300px;
+        height:300px;
+        align-items: center;
+        justify-content: center;
+        display:flex;
+    }  
+}*/
+
+/*img{
+    border:5px solid Black;
+    border-radius:100%;
+}
