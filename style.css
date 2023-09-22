@@ -7,7 +7,7 @@
 }
 
 body{
-    background: white;
+    background:#efefef;
 }
 
 #menuStart{
@@ -20,7 +20,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background:white;
+    background:transparent;
 }
 #leftBlock{
     background-color:transparent;
@@ -59,7 +59,7 @@ body{
 
 footer{
     height:5vh;
-    background-color: white;
+    background-color: #efefef;
     border-top: 2px solid black;
     width:95vw;
     margin-left:auto!important;
