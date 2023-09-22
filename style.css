@@ -52,8 +52,31 @@ body{
 
 @media screen and (max-width: 1100px){
     #rightBlock img{
-        width:400px;
-        height:400px;
+        width:300px;
+        height:300px;
+    }
+    #leftBlock{
+        font-size:15px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    #rightBlock img{
+        width:200px;
+        height:200px;
+    }
+    #leftBlock{
+        font-size:10px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    #rightBlock img{
+        width:150px;
+        height:150px;
+    }
+    #leftBlock{
+        font-size:7px;
     }
 }
 
@@ -75,7 +98,7 @@ footer{
 
 .infoBorder{
     width:50vw;
-    background-color: white;
+    background-color: transparent;
     border: 2px solid black;
     margin-left:auto;
     margin-right:auto;
