@@ -68,6 +68,10 @@ body{
     #leftBlock{
         font-size:10px;
     }
+
+    #footerText{
+        font-size:15px;
+    }
 }
 
 @media screen and (max-width: 400px){
@@ -132,6 +136,26 @@ html{
     text-align: start;
 }
 
+.alignRightProjects{
+    display: flex;
+    justify-content: end;
+}
+
+.alignLeftProjects{
+    justify-content: start;
+}
+
+.projectsCenter{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    background-color: transparent;
+    margin-top: 40px;
+    gap: 15px;
+}
+
 /*Länkar*/
 a:link{
     color: black;
@@ -141,19 +165,3 @@ a:visited{
     color:black;
 }
 
-/*img {  
-    max-width: 100%;  
-    height: auto;   
-    @media screen and (max-width:1100px){
-        width:300px;
-        height:300px;
-        align-items: center;
-        justify-content: center;
-        display:flex;
-    }  
-}*/
-
-/*img{
-    border:5px solid Black;
-    border-radius:100%;
-}
