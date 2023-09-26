@@ -7,8 +7,27 @@
 }
 
 body{
-    background:#efefef;
+    background-color: #F0F0F0;
+    height:100vh;
+    width:100%;
+    padding:0;
+    margin:0px;
 }
+
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
 
 #menuStart{
     font-family: "Constantia Regular", "Constantia Regular", serif;
@@ -20,7 +39,12 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background:transparent;
+    box-sizing: border-box;
+    background:linear-gradient(132deg, rgba(239,239,239,94), rgba(112,112,112,44), rgba(176,176,176,69), rgba(214,214,214,84), rgba(252,252,252,99));    
+    background-size:400% 400%;
+    animation:Gradient 15s ease infinite;
+    position:relative;
+    border-bottom: 2px solid black;
 }
 #leftBlock{
     background-color:transparent;
@@ -29,6 +53,10 @@ body{
 
 #rightBlock{
     margin-left:50px;
+    border:2px solid black;
+    border-radius:50%;
+    height:500px;
+    width:500px;
 }
 
 .centerHori{
@@ -107,12 +135,11 @@ body{
 
 footer{
     height:5vh;
-    background-color: #efefef;
+    background-color: transparent;
     border-top: 2px solid black;
     width:95vw;
     margin-left:auto!important;
     margin-right: auto!important;
-    position:sticky;
     bottom:0;
 }
 
