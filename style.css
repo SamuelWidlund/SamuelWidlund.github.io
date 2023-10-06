@@ -38,6 +38,10 @@ body {
     animation: Gradient 15s ease infinite;
 }
 
+.productImg {
+    border-radius: 10px;
+}
+
 /* links  */
 a:link {
     text-decoration: none;
