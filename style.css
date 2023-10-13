@@ -38,6 +38,10 @@ body {
     animation: Gradient 15s ease infinite;
 }
 
+.responsiveHeader{
+    font-size:30px;
+}
+
 .productImg {
     border-radius: 10px;
 }
@@ -49,6 +53,10 @@ a:link {
 
 a:hover {
     text-decoration: underline;
+}
+
+.blackLink {
+    font-size: 17px;
 }
 
 .blackLink a:link {
@@ -64,6 +72,10 @@ a:hover {
     .productImg {
         width: 300px;
         height: auto;
+    }
+
+    .responsiveText{
+        font-size: 15px;
     }
 }
 
@@ -84,11 +96,72 @@ a:hover {
         width: 200px;
         height: auto;
     }
+
+    .responsiveText{
+        font-size: 13px;
+    }
 }
 
 @media screen and (max-width: 500px) {
     .productImg {
         width: 130px;
         height: auto;
+    }
+
+    .responsiveText{
+        font-size: 11px;
+    }
+
+    .responsiveHeader{
+        font-size:25px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #aboutImg {
+        width:120px;
+        height: auto;
+    }
+
+    .responsiveHeader{
+        font-size:20px;
+    }
+
+    .blackLink {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .responsiveText{
+        font-size: 11px;
+    }
+
+    .responsiveHeader{
+        font-size:15px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .productImg {
+        width: 70px;
+        height: auto;
+    }
+
+    #aboutImg {
+        width:100px;
+        height: auto;
+    }
+
+    .responsiveText{
+        font-size: 9px;
+    }
+
+    .responsiveHeader{
+        font-size:10px;
+    }
+
+    .blackLink {
+        font-size: 13px;
     }
 }
