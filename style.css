@@ -9,6 +9,14 @@ body {
     font-family: "Roboto Mono" !important;
 }
 
+#responsiveSamuel {
+    font-size: 30px;
+}
+
+/* #responsiveUnderSamuel {
+    font-size: 20px;
+} */
+
 /* font  */
 @font-face {
     font-family: "Roboto Mono";
@@ -100,6 +108,10 @@ a:hover {
     .responsiveText{
         font-size: 13px;
     }
+
+    #responsiveSamuel {
+        font-size: 25px;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -115,6 +127,7 @@ a:hover {
     .responsiveHeader{
         font-size:25px;
     }
+    
 }
 
 @media screen and (max-width: 400px) {
@@ -125,6 +138,14 @@ a:hover {
 
     .responsiveHeader{
         font-size:20px;
+    }
+
+    #responsiveSamuel {
+        font-size: 20px;
+    }
+
+    #responsiveUnderSamuel {
+        font-size: 13px;
     }
 
     .blackLink {
@@ -139,6 +160,10 @@ a:hover {
 
     .responsiveHeader{
         font-size:15px;
+    }
+
+    #responsiveUnderSamuel {
+        font-size: 10px;
     }
 }
 
@@ -159,6 +184,10 @@ a:hover {
 
     .responsiveHeader{
         font-size:10px;
+    }
+
+    #responsiveUnderSamuel {
+        font-size: 9px;
     }
 
     .blackLink {
